@@ -2,12 +2,11 @@
 
 Built on the official Python `mcp` SDK's ergonomic server class, imported via
 `archy.mcp_compat` so both SDK majors work (`FastMCP` on 1.x, `MCPServer` on
-2.x; see #391). The 12
-tools cover archy's analysis surface (`archy_score`, `archy_cycles`,
-`archy_check`, `archy_impact`,
-`archy_snapshot`, `archy_diff`, `archy_simulate`, `archy_graph`,
-`archy_what_to_refactor_next`, `archy_dsm`,
-`archy_duplicates`, `archy_conventions`) so an agent
+2.x; see #391). The registered tools cover archy's analysis surface
+(`archy_score`, `archy_cycles`, `archy_check`, `archy_impact`,
+`archy_snapshot`, `archy_diff`, `archy_graph`, `archy_what_to_refactor_next`,
+`archy_dsm`, `archy_simulate`, `archy_duplicates`, `archy_conventions`,
+`archy_module_view`) so an agent
 can treat archy as a structural sensor in its own feedback loop, the way
 the README pitches. Several tools carry a mode/lens/param switch that
 absorbs what used to be a separate tool: `archy_impact(mode='affected')`
